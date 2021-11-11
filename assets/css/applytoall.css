@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(
+    to right bottom,
+    var(--dark-blue),
+    var(--dark-blue)
+  );
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.button {
+  background-color: var(--light-blue);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--text);
+  outline: none;
+}
+
+.button_icon {
+  margin-left: 5px;
+}
+
+.button:hover {
+  background-color: var(--mid-blue);
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+  color: var(--text);
+  font-size: var(--large-size);
+  font-weight: 600;
+}
+
+.subtitle {
+  text-align: center;
+  color: var(--text);
+  font-size: var(--small-size);
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: var(--dark-blue);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--light-blue);
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--light-blue);
+}

@@ -1,0 +1,16 @@
+:root {
+  --dark-blue: rgb(11, 24, 36);
+  --mid-blue: rgb(17, 42, 56);
+  --light-blue: rgb(31, 60, 67);
+  --text: rgb(255, 255, 255);
+  --normal-size: 0.938rem;
+  --large-size: 1.5rem;
+  --medium-size: 1.125rem;
+  --small-size: 0.813rem;
+}
+
+body.green_theme {
+  --dark-blue: rgb(10, 36, 10);
+  --mid-blue: rgb(20, 47, 20);
+  --light-blue: rgb(43, 73, 49);
+}

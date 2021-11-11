@@ -1,0 +1,50 @@
+footer {
+  background-color: var(--light-blue);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.footer_menu li {
+  padding-top: 1.5rem;
+  list-style: none;
+}
+
+.footer_menu li a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.footer_menu li a:hover {
+  color: var(--mid-blue);
+  transition: 0.4s;
+}
+
+.rights {
+  color: var(--text);
+  text-align: center;
+  font-size: 14px;
+}
+
+.scroll_up {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  background-color: var(--mid-blue);
+  padding: 0 0.3rem;
+  border-radius: 0.4rem;
+  z-index: 10;
+  transition: 0.4s;
+  color: var(--text);
+  font-size: 1.5rem;
+}
+
+.scroll_up:hover {
+  background-color: var(--text);
+  color: var(--mid-blue);
+}
+
+.show_scroll {
+  bottom: 3rem;
+}
